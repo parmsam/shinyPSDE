@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# shinyPSDE: Shiny Police Shooting Data Explorer
+# shinyPSDE: Shiny Police Shooting Data Explorer - WIP
 
 <!-- badges: start -->
 
@@ -9,8 +9,8 @@
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
-The goal of shinyPSDE is to serve as a data explorer in R Shiny for the
-Washington Post Police Shooting Database.
+The goal of shinyPSDE is to serve as a data explorer for the Washington
+Post Police Shooting Database.
 
 ## Installation
 
@@ -26,15 +26,20 @@ devtools::install_github("parmsam/shinyPSDE")
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
-# library(shinyPSDE)
+library(shinyPSDE)
 ## basic example code
+shinyPSDE::run_app()
 ```
 
-## Data Source
+## Credit
 
--   <https://github.com/washingtonpost/data-police-shootings>
+Credit goes to the Washington Post and their research and
+reporting/database development team for compiling and sharing the
+dataset on their [Github
+repo](https://github.com/washingtonpost/data-police-shootings).
 
-## Additional Resources
+### Note
 
--   <https://www.washingtonpost.com/graphics/investigations/police-shootings-database/>
--   <https://github.com/parmsam/wapoposh>
+The data used in this app was originally published under an
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+license.

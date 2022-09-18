@@ -1,8 +1,8 @@
 Package: shinyPSDE
 Title: Shiny Police Shootings Data Explorer
 Version: 0.0.0.9000
-Authors@R: person('Sam', 'Parmar', email = 'The goal of shinyPSDE is to serve as a data explorer in R Shiny for the Washington Post Police Shooting Database.', role = c('cre', 'aut'))
-Description: 
+Authors@R: person('Sam', 'Parmar', email = 'parmartsam@gmail.com', role = c('cre', 'aut'))
+Description: The goal of shinyPSDE is to serve as a data explorer in R Shiny for the Washington Post Police Shooting Database.
 License: MIT + file LICENSE
 Imports: 
     attempt,

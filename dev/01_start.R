@@ -22,10 +22,10 @@
 golem::fill_desc(
   pkg_name = "shinyPSDE", # The Name of the package containing the App
   pkg_title = "Shiny Police Shootings Data Explorer", # The Title of the package containing the App
-  pkg_description = "", # The Description of the package containing the App
+  pkg_description = "The goal of shinyPSDE is to serve as a data explorer in R Shiny for the Washington Post Police Shooting Database.", # The Description of the package containing the App
   author_first_name = "Sam", # Your First Name
   author_last_name = "Parmar", # Your Last Name
-  author_email = "The goal of shinyPSDE is to serve as a data explorer in R Shiny for the Washington Post Police Shooting Database.", # Your Email
+  author_email = "parmartsam@gmail.com", # Your Email
   repo_url = "https://github.com/parmsam/shinyPSDE" # The (optional) URL of the GitHub Repo
 )
 
