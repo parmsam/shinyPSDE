@@ -39,14 +39,8 @@ This is a basic example which shows you how to solve a common problem:
 ```
 
 ## Data Source
-https://github.com/washingtonpost/data-police-shootings
+- https://github.com/washingtonpost/data-police-shootings
 
 ## Additional Resources
-https://www.washingtonpost.com/graphics/investigations/police-shootings-database/
-
-## Key Packages
-* golem
-* shiny
-* dplyr
-* lubridate
-* stringr
+- https://www.washingtonpost.com/graphics/investigations/police-shootings-database/
+- https://github.com/parmsam/wapoposh

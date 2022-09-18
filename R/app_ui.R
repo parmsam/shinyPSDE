@@ -9,8 +9,38 @@ app_ui <- function(request) {
     # Leave this function for adding external resources
     golem_add_external_resources(),
     # Your application UI logic 
-    fluidPage(
-      h1("shinyPSDE")
+    bs4Dash::dashboardPage(
+      header = bs4Dash::dashboardHeader(title = "shinyPSDE"),
+      bs4Dash::bs4DashSidebar(
+        bs4Dash::bs4SidebarMenu(
+          bs4Dash::bs4SidebarMenuItem("explorer"),
+          bs4Dash::bs4SidebarMenuItem("usage")
+        )
+      ),
+      bs4Dash::dashboardBody(
+        shiny::fluidRow(
+          bs4Dash::bs4Sortable(
+            bs4Dash::bs4Card(
+              title = "Controls",
+              status = "primary",
+              brandColor = "primary"
+              # TODO - controls module goes here
+            ),
+            bs4Dash::bs4Card(
+              title = "Plot",
+              status = "success",
+              brandColor = "success"
+              # TODO - plot module goes here
+            ),
+            bs4Dash::bs4Card(
+              title = "Data",
+              status = "success",
+              brandColor = "success"
+              # TODO - data view module goes here
+            )
+          )
+        )
+      )
     )
   )
 }

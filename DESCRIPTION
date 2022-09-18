@@ -6,6 +6,7 @@ Description:
 License: MIT + file LICENSE
 Imports: 
     attempt,
+    bs4Dash,
     config (>= 0.3.1),
     dplyr,
     DT,
@@ -15,10 +16,11 @@ Imports:
     lubridate,
     processx,
     shiny (>= 1.6.0),
-    stringr
+    stringr,
+    wapoposh (>= 0.1.0)
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.1
 URL: https://github.com/parmsam/shinyPSDE
 BugReports: https://github.com/parmsam/shinyPSDE/issues
 Suggests: 
@@ -26,3 +28,5 @@ Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Language: en-US
+Remotes: 
+    github::parmsam/wapoposh@HEAD

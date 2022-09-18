@@ -18,6 +18,8 @@
 usethis::use_package( "dplyr" )
 usethis::use_package( "stringr" )
 usethis::use_package( "lubridate" )
+usethis::use_dev_package("wapoposh", type = "Imports", remote = "github::parmsam/wapoposh@HEAD")
+usethis::use_package( "bs4Dash" )
 
 ## Add modules ----
 ## Create a module infrastructure in R/
